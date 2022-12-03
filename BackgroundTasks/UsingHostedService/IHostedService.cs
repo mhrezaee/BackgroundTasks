@@ -1,4 +1,4 @@
-﻿namespace BackgroundTasks;
+﻿namespace BackgroundTasks.UsingHostedService;
 
 public interface IHostedService
 {

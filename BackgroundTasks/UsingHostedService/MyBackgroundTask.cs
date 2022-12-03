@@ -1,6 +1,7 @@
-﻿namespace BackgroundTasks.UsingHostedService;
+﻿using Microsoft.Extensions.Hosting;
+namespace BackgroundTasks.UsingHostedService;
 
-public class MyBackgroundTask : IHostedService
+public class MyBackgroundTask :  IHostedService
 {
     public Task StartAsync(CancellationToken cancellationToken)
     {

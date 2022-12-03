@@ -6,12 +6,12 @@ public class MyBackgroundTask :  IHostedService
     public Task StartAsync(CancellationToken cancellationToken)
     {
         // implement process
-        return null;
+        return Task.CompletedTask;
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
         // implement clean up 
-        return null;
+        return Task.CompletedTask;
     }
 }
